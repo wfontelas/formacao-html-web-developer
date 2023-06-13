@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    
+    <!--Tag Forms-->
+    <!-- <form name="signup" onsubmit="alert('Enviei o formulário')" target="_parent" autocomplete="on" method="post" action="https://meusite.com.br/signup">
+        Nome: <input type="text" name="name"><br>
+        Idade: <input type="number" name="age"><br>
+        Senha: <input type="password" name="password"><br>
+        <button type="submit">Enviar</button>
+    </form>     -->
+
+
+    <!--Tag Input-->
+    <!-- <form>
+        <label>Text: </label><input type="text" /><br>
+        <label>Number: </label><input type="number" min="0" step="2"  max="99"/><br>
+        <label>Range: </label><input type="range"min=0  max="100" value="90"><br>
+        <label>Color: </label><input type="color"><br>
+        <label>E-mail: </label><input type="email"><br>
+        <label>Url: </label><input type="url"><br>
+        <label>Date: </label><input type="date"><br>
+        <label>Week: </label><input type="week"><br>
+        <label>Month: </label><input type="month"><br>
+        <label>Checkbox: </label><input type="checkbox"></label><input type="checkbox"><br>
+        <label>Radio: </label><input type="radio" name="aceita"/></label><input type="radio" name="aceita"><br>
+        <label>Hidden: </label><input type="hidden"><br>
+        <label>File: </label><input type="file" multiple><br>
+        <label>Search: </label><input type="search"><br>
+        <label>Button: </label><input type="submit" value="Enviar">
+    </form> -->
+
+    <!--Checkbox e Radio-->
+    <!-- <form method="get">
+        <h3>Você selecionou : Pizza de Calabresa</h3>
+        <p>Quais opcionais você deseja?</p>
+        <input type="checkbox" disabled name="opcional[]" value="queijo"> + queijo <br>
+        <input type="checkbox" name="opcional[]" value="calabresa"> + calabresa <br>
+        <input type="checkbox" name="opcional[]" value="cebola"> + cebola <br>
+        <input type="checkbox" name="opcional[]" value="azeitona"> + azeitona <br>
+        <p>Borda recheada?</p>
+        <input type="radio" name="borda" value="sim">Sim<br>
+        <input type="radio" name="borda" value="nao">Não<br>
+        <p>Bebida</p>
+        <input type="radio" name="bebida" value="suco">Suco<br>
+        <input type="radio" name="bebida" value="refrigerante">Refrigerante<br>
+        <input type="radio" name="bebida" value="agua">Água<br>
+        <input type="radio" name="bebida" value="nenhum">Nenhum<br><br>
+
+        <button type="submit">Enviar pedido</button>
+    </form> -->
+
+
+    <!--Button e seus tipos-->
+    <!-- <form onsubmit="" method="get">
+        <label>Nome*: </label><input type="text" name="name"><br>
+        <label>Idade*: </label><input type="number" name="age"><br>
+        <label>Nome*: </label><input type="password" name="password"><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        <button type="button">Clicável</button>
+        <button type="menu">Menu</button>
+    </form> -->
+
+    <!--Select e seus tipos, TExtarea --  obs: no select podemos ter o multiple-->
+    <form onsubmit="" method="get">
+        <label>Nome: </label><input type="text" name="name"><br>
+        <label>Cargo: </label>
+        <select name="role">
+            <option value="">Selecione o Cargo</option>
+            <option selected value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="presidente">Presidente</option>
+        </select>
+        <br>
+        <label>Assunto:</label><input type="text" name="subject"><br>
+        <label>Mensagem:</label>
+        <textarea rows="10" cols="50" name="message"></textarea><br>
+        <button type="submit">Enviar</button>
+    </form> 
+
+</body>
+</html>

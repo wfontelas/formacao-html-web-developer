@@ -1,0 +1,63 @@
+	----------------------------------------------------------------------------------------------------------	
+		********************************* HTML: RECURSOS ESPECIAIS **************************************
+	----------------------------------------------------------------------------------------------------------
+
+		DATALIST
+
+			!--Selectbox-->
+			<select name="browsers">
+				<option value="">Selecione um navegador </option>
+				<option value="chrome">Google Chrome</option>
+				<option value="firefox">Mozila Firefox</option>
+				<option value="edge">Microsoft Edge</option>
+				<option value="safari">Safari</option>
+				<option value="opera">Opera</option>
+			</select>
+
+			<hr>
+
+			<!--Datalist-->
+		   <input  list="browsers" type="search" name="search">
+		   <datalist id="browsers">
+				<option>Selecione um navegador </option>
+				<option>Google Chrome</option>
+				<option>Mozila Firefox</option>
+				<option>Microsoft Edge</option>
+				<option>Safari</option>
+				<option>Opera</option>
+		   </datalist>
+		   
+	    CODE, KBD E PRE
+		
+			<body>
+				<p>Para copiar essa informação, pressione <kbd>CTRL</kbd> + <kbd>C</kbd> </p>
+
+				<p>Para trocar o fundo de um elemento, utilize o comonado <code>backgroung-color</code></p>
+
+				<p>Comando completo de alterar cor de fundo</p>
+				<pre> <!--dentro do pre vc pode agrupar varios code ou não , mais fica melhor sêmanticamente-->
+					<p>//Neste momento aplica dessa forma</p>
+					<code>
+						code {
+							background-color: #f1f1f1;
+							color: red;
+						} 
+					</code>             
+				</pre>
+			</body>
+			
+		
+		DETAILS E SUMMARY
+		
+			<body>
+				<details>
+					<summary>Como troco a cor de fundo de um elemento nop HMTL</summary>
+					<p>Para executar essa ação, utilize o comando <code>background-color</code> no css</p>
+				</details>
+			</body>
+			
+		METER E PROGRESS
+
+			
+
+			

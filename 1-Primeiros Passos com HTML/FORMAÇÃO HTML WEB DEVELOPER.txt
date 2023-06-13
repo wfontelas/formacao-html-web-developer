@@ -1,0 +1,256 @@
+	----------------------------------------------------------------------------------------------------------------
+	********************************** FORMAÇÃO HTML WEB DEVELOPER **********************************************
+	---------------------------------------------------------------------------------------------------------------
+								PRIMEIROS PASSOS COM HTML
+
+	
+	ENTENDENDO COMUNICAÇÃO CLIENT X SERVER
+	
+	1-História da Web
+	
+	2-O que são Clients
+	
+	https://www.w3schools.com/tags/ref_html_browsersupport.asp
+	
+	3-O que são Servers
+	
+	4-Linguagens de Programação
+	
+	https://v8.dev/
+	
+	HTML  é uma linguagem de programação?
+	
+	* Não.HTML não é uma liguagem de programação!
+	* HTML é um arquivo de marcação
+	* Textos delimitados por nomes que o navegador consegue interpretar.
+	* Cada nome destes delimitadores, tem uma função e comportamento específico.
+	
+	-----------------------------------------------------/////-----------------------------------------------------
+	
+	
+	
+	INTRODUÇÃO AO HTML NA PRÁTICA
+
+	1-Introdução ao HTML na prática
+	
+		-Apresentando o curso
+
+	Aprender a instalar e configurar o ambiente de desenvolvimento.Entender o funcionamento do inspetor de elementos do navegador e criar sua primeira página HTML
+	
+	--------------------------------------------------------------------------------------------
+	
+		-Ferramentas Utilizadas
+		
+			-VSCode 
+			-Extensões - Live Servers
+					   - Emmet Ex: Hmtl:5 cria uma página
+					   
+			-Chrome
+					   - Inspeção de elementos	
+	
+
+	---------------------------------------------------------------------------------------------
+	
+
+		-Inspetor de Elementos
+		
+	Aperte F12 no Navegador - Ferrramentas do Desenvolvedor -botão esquerdo acima clicar e inspecionar
+	
+	lado esquerdo CSS
+	
+	----------------------------------------------------------------------------------------------
+		
+		-Estrutura básica do HTML
+		
+		<html>
+			<head>
+				<title>Meu primeiro HTML</title>
+			</head>
+			<body>
+				Meu primeiro HTML !
+			</body>   
+			
+		</html>
+		
+		Obs: botão direito em cima do index.html > Open Live Server
+	------------------------------------------------------------------------------------------------	
+		
+		-Falando sobre TAGs
+
+		<html></html>
+		<head></head>
+		<body></body>
+
+	------------------------------------------------------------------------------------------------
+
+		-Atributo das TAGs
+		
+		genericos a qualquer tag
+		
+		id="" identificador JS
+		style= ""  css
+		class=""
+		
+		especificos, ex:
+		
+		type="" que é da tag <input>
+		src="" que da tag<Img>
+		
+	------------------------------------------------------------------------------------------------
+
+		-Textos
+	
+	
+		 <h1>DIO.me</h1>
+         <h2>Implente o seu futuro global agora</h2>
+         <p>
+            Domine as <strong><u>Tecnologias</u><sup>*</sup></strong> utilizadas pelas empresas <mark>mais inovadoras do mundo</mark> e encare seu novo desafioi profissional,
+            evoluindo em comunidade com os melhores experts
+         </p> 
+         <blockquote>
+            <i>O jeito DIO._para você ganhar destaque mais rápido no mercado</i>
+         </blockquote>
+         <h2>
+            Aprenda Tecnologias emergentes
+         </h2> 
+         <p>
+            Os nossos curso e programas de formação são criados em conjunto com epecialistas das empresas mais inovadoras do mundo,
+            aplicando uma metodologia para que você domine as tecnologias utilizadas no mercado e também mergulhe nas novas e mais
+            atuais tecnologias que impactarão o futuro dos negócios digitais.
+         </p>
+         <h2>Pratique com desafios de código</h2>
+         <p>Potencializamos o seu talento e aprimoramos as suas habilidades de pensamento computacional e resolução de desafios 
+            reais através de experiências práticas de codificação em nossa plataforma personalizada e exclusiva.
+         </p>
+		 
+		 -----------------------------------------------------------------------------------------------------
+		 
+		-Listas Ordenadas e Não Ordenadas
+		
+		  <ol><!--Tag pai, list ordenada-->
+            <li>item 1</li><!--Tag filha-->
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>
+                <ol>
+                   <li>item 3.1</li>
+                   <li>item 3.2</li>
+                   <li>item 3.3</li>            
+                </ol>
+
+            </li>
+         </ol>
+         <ul><!--Tag pai, list não ordenada-->
+            <li>item 3.1</li>
+            <li>item 3.2</li>
+            <li>item 3.3</li> 
+         </ul>
+		 
+		 ----------------------------------------------------------------------------------------------------
+		-Links
+
+		   <!--Links-->
+         <h1>Meu primeiro HTML</h1>
+         <ul>
+            <li>
+                <a href="about.html" title="Clique aqui e confira" target="_blank">Sobre a empresa</a>
+            </li>        
+        </ul>
+
+	-----------------------------------------------------------------------------------------------------------
+	-----------------------------------------------------------------------------------------------------------
+	TRABALHANDO COM FORMULÁRIOS
+
+	Entender algumas tags HTML. Entender como funcionam os formulários de um website e como uma informação enviada através de formulário chega até o servidor.
+	
+	Tags Form
+	
+	Campos onde o usuário vai inserir a informação para comunicação Client X Server
+	
+	---------------------------------------------------------------------------------------------------------
+	Estruturando seu HTML + Formatações
+	
+	Entender como formatar alguns textos pensando também em acessibilidade.Estrutura melhor seu HTML, preparando
+	ele para aplicar o CSS.Conhecer mais sobre como funcionam cores no HTML.
+	
+	<div> e <span> tags coringas
+	
+	<div> cada retangulo do exemplo do video
+	
+	ul>li*3>a - comando que faz uma ul e tres li com about
+	p>loren - ativa o texto ypsulum lorem
+	
+	
+	site frames
+	Flash Player - os navegadores não dão mais suporte
+	Java Applets
+	
+	
+	dai nasceu o embed
+	----------------------------------------------------------------------------------------------
+	Resenha sobre Cores
+	
+	Naveagdores modernos aceitam  + ou - 140 cores 
+	
+	https://www.w3schools.com/tags/ref_colornames.asp
+	
+	---------------------------------------------------------------------------------------------
+	---------------------------------------------------------------------------------------------
+	
+	Trabalhando com Mídias
+	
+	Trabalhando com tabelas
+	
+	Box Shadow Css Generator -- site para simular a borda
+	
+	
+	--------------------------------------------------------------------------------------------------------------
+	Página - Primeirom Site
+	
+		Tema - clinica médica
+		
+		terão 4 páginas 
+		-Página Principal - Header - Um imagem , Content - informações sobre a clinica ,  No menu, colocar o link pra as outras páginas
+		-Sobre a clinica
+		-Horário de atendimento - tabela
+		-Contato - google maps
+		
+		
+	
+	
+	
+	
+	
+	
+	
+
+		
+		
+			
+	
+	
+	
+	
+	
+	
+	
+		
+					   
+			
+			
+			
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

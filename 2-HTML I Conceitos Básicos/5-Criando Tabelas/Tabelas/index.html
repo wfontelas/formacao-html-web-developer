@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas</title>
+    <style>
+        /* table tr:nth-child(even){
+            background-color: burlywood;
+        }
+        table tr:hover td{
+            background-color: darkgrey;
+        } */
+        table{
+            -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+            box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+            border: solid 1px gray
+        }
+        table thead {
+            background-color: black;
+            color: white;
+        }
+        table tfoot td{
+            background-color: lightgray;
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: #f1f1f1;
+        }
+        table tbody tr:hover td{
+            background-color: #E9E9E9;
+            cursor:pointer
+        }
+        
+    </style>
+</head>
+<body>
+    <table summary="Tabela de idades de Alunos"  width="250" align="center" cellspacing="0" cellpadding="5"><!--summary = descreve um resumo dos dados da tabela,mas não aparece na tela-->
+        <caption>Tabela de idade dos Alunos</caption>  <!--o caption = um titiulo-->
+        <thead>
+            <tr>
+                <th colspan="2">Minha Tabela</th>
+            </tr>
+            <tr>
+                <th title="Nome Completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Caroline</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Gumercinda</td>
+                <td>74</td>
+            </tr>
+            <tr>
+                <td>Goiaba</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>44</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>40</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>6</td>
+            </tr>
+        </tfoot> 
+    </table>
+</body>
+</html>

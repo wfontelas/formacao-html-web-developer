@@ -1,0 +1,155 @@
+	---------------------------------------------------------------------------------------------------
+		********************************* HTML II SEMANTICO *******************************************
+	---------------------------------------------------------------------------------------------------
+	
+		1-ENTENDENDO O HTML SEMANTICO
+		
+			HTML -SEMÂNTICA
+			
+				HTML5
+				 
+				 se tiver padrão - semantica , melhor para o robo ler
+				 
+				<body>
+					<header>..</header>
+					<main>...</main>
+					<footer>...</footer>
+				</body>
+				
+			MUDANÇAS DO HTML 5
+
+				https://www.w3.org/TR/html5-diff/
+				
+			ACESSIBILIDADE	
+
+				A navegabilidade da acessibilidade é definida pelo HTML5
+
+					W3c -WAI - Web Acessibility Iniciative
+					
+					WCAG2.0 - https//www.w3.org/WAI/WCAG21/quickref/?versions=2.0
+					
+					NVDA - Leitor de tela vai ler o que esta no tributo alt=""
+
+					DOM + ARIA (Accessible Rich Internet Applications)	muda o comportamento da arvore de acessibilidade.
+					
+					-No inspecior de elementos - Janela do navegador - Elementos> acessibilidade> Enable full page-acessibility tree 
+					
+					Vc vai ver o que tem de acessibilidade na página
+					
+					aria-hidden = "true"
+					
+					aria-expand = "false"
+					
+			WEB SCRAPING
+
+				Crawler - "Rastreador" -- robo ou indexador que entra lê o html e indexar 
+				
+				Googlebot -- crawler famoso
+				
+				GoogleSearchConsole - 
+				
+				ai que entra a sematica nos códigos  - para o bot entrar na pagina e indexar
+			
+				SEO -search engine optmization
+				
+				Crucial para um e-commerce
+				
+			
+			MAIN, HEADER E FOOTER	
+			
+			
+				<body>
+					<header>..</header>
+					<main>...</main>
+					<footer>...</footer>
+				</body>
+			
+			ASIDE,SECTION, NAV
+
+				<aside> -- -Assunto tangicialmente relacionado ao conteudo, Não o assunto principal
+				<section> -- Seção da pagina
+				<nav> --navegador , muito utilizado para navegar na página
+				
+			ARTICLE, BLOCKQUOTE E Q
+
+			  <article>
+				<p>Qual o seu prato favorito ?</p>
+				  <article>
+				  	<p>Churrasco</p>
+				  </article>
+			    </article>
+				  
+				Usando o time e pubdate para data e o  blockquote para citar alguma coisa:
+				
+				<article> 
+					<h1>Descoberta de vida em outro planeta</h1>
+					<p>Artigo publicado em <time pubdate>21/02/2023 19:00</time></p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+					<p>Aperiam mollitia reiciendis veritatis sapiente consequuntur pariatur.</p>
+					<p>Expedita ipsum quaerat tenetur cum earum sit.<p>
+					<blockquote>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+					</blockquote cite="http://wikipedia.com> 
+					<q>citação de fonte menor</q>   
+					</p> Perferendis alias atque illo! Tenetur reprehenderit eveniet nobis.</p>
+				</article>
+					
+				
+			FIGURE, FIGACTION E PICTURE
+
+					    <!--Semanticamente usar o figure é melhor para os indexadores-->
+						<figure>
+							<img src="assets/img/carro.jpg">
+							<figcaption>Descrição do veiculo da Apple</figcaption>
+						</figure>
+						<!--Não semantico-->
+							<img src="assets/img/carro.jpg">
+							<figcaption>Descrição do veiculo da Apple</figcaption>
+
+						<!--No picture tem como colocar multiplas fontes para a mesma imagem -->
+						<picture>
+							<source srcset="assets/img/carro2.jpg" media="(min-width: 600px)">
+							<img src="assets/img/carro.jpg">
+						</picture>  
+						
+						
+			RESENHA - O QUE É O SEO(SEARCHE ENGINEE OPTIMIZATION)
+			
+				SEO - Website - Analysis - Content -  Backlinks - Keywords - social media - ranking - optimization 
+
+				Otimização para mecanismos de buscas
+				
+				"O pior lugar é se ter uma página em segundo lugar na busca do google"
+				
+				 influencia - site que muita busca
+				 técnica -semantica na programação 
+				 
+				 Google Search Console - precisa ter uma conta no google e um site cadastrado, ele faz algumas validações e começa a coletar as métricas ali.
+				 
+				 Google adWords - comprar palavra chave (quanitdade de cliques e etc..)
+				 
+				 Dicas para otimizar o seu HTML para ele aparecer melhor nas buscas:
+				 
+					-Titulos que condizem com o conteudo da sua página, todas as páginas com uma descrição de 50 e 60 letras no maximo.
+					Ex: <title>PC Gmaer com 15% OFF no PIX | Kabum! </title>
+					
+					-No description colocar metadados:
+					EX:<meta name="description" content="PC Gamer 15% OFF no PIX | Kabum!"/>
+				
+					-Estudar sobre o Schema.org - estupula alguns formatos que colocamos no html para melhorar a busca nos nossos sites
+					
+				 
+				
+				
+					
+					    
+  
+					
+					
+					
+				
+			
+			
+
+				
+			

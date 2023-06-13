@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    <!--Semanticamente usar o figure é melhor para os indexadores-->
+    <figure>
+        <img src="assets/img/carro.jpg">
+        <figcaption>Descrição do veiculo da Apple</figcaption>
+    </figure>
+    <!--Não semantico-->
+        <img src="assets/img/carro.jpg">
+        <figcaption>Descrição do veiculo da Apple</figcaption>
+
+    <!--No picture tem como colocar multiplas fontes para a mesma imagem -->
+    <picture>
+        <source srcset="assets/img/carro2.jpg" media="(min-width: 600px)">
+        <img src="assets/img/carro.jpg">
+    </picture>    
+</body>
+</html>
